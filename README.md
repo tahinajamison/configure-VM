@@ -51,3 +51,34 @@ This tutorial outlines the implementation of Virtual Machines within Azure.<br /
 </p>
 <br />
 
+
+![image](https://github.com/tahinajamison/configure-VM/assets/171196211/dcadfcfe-7399-4370-a212-0148f5661d33)
+
+<h2>REMOTE DESKTOP WITH MacOS</h2>
+
+- Now that you have created your virtual machine, if you want to go back and review, you can click on Microsoft Azure to return to the home page and either select the icon or type in the search bar
+
+- Once you've clicked on the VM you created, it'll display all the information and resources in regards to the VM
+
+-Window users also have access to remote desktop, an image is displayed below for reference
+
+![image](https://github.com/tahinajamison/configure-VM/assets/171196211/95fae60f-cf86-4695-b478-7c2fbcd0ea07)
+
+- To utilize the remote desktop, you will need the public ip address which can be found once you open your VM
+
+- Once you have the ip address, you can now enter in the username and password you created initially for your VM
+
+- A warning message may appear, but you can disregard and proceed forward and click yes. Now you can paste the ip address when prompted, and now you have access to your Virtual Machine.
+
+- Okay, for Mac users, you can download "RD Client" from the Apple Store and its free, its the orange icon
+
+- The steps are the same, you select "Add PC", enter the public ip address, then enter in the username and password for the VM and click save.
+
+- Now you have created your virtual pc within the app
+
+- Click on the PC and your virtual machine should load onto the Mac.
+
+- Its important to delete virtual machine, when done,  to avoid using all your credits.
+
+- Return to azure portal and select the resource group then select delete. Since VM is within resource group it will delete as well. But double check to make sure everything is deleted, including additional VM that could have been created such as "Networkwatchers"
+  

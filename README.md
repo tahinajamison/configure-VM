@@ -45,8 +45,6 @@ This tutorial outlines the implementation of Virtual Machines within Azure.<br /
 - Lastly you'd select "Review + Create".
 - Once completed it'll say validation passed in the green at the top of the screen. Bear in mind, this may take a few minutes to complete.
 
-  ![image](https://github.com/tahinajamison/configure-VM/assets/171196211/72798d82-9154-4c0f-968f-d7ad98317d37)
-
 -   CONGRATULATIONS ON CREATING A VIRTUAL MACHINE!      
 </p>
 <br />
